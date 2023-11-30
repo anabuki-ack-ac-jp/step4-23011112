@@ -17,7 +17,7 @@ public class Step4Controller {
   public String index(Comment comment, Model model) {
     List<Student> studentList = new ArrayList<Student>();
     studentList.add(new Student("321A0001", "山田 太郎", "プログラミング専攻"));
-    studentList.add(new Student("321A0002", "田中 一郎", "ロボット・IoT専攻"));
+    studentList.add(new Student("321A0002", "田中 一郎", "ロボット・Iot専攻"));
     studentList.add(new Student("321A0003", "佐藤 次郎", "クラウド専攻"));
     // 課題 level2 step4
     // 所属学科を追加してください。
