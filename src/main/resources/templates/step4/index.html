@@ -26,10 +26,13 @@
             <tr>
               <th>学籍番号</th>
               <th>名前</th>
+              <th>所属学科
+              <th>
             </tr>
             <tr th:each="student : ${studentList}">
               <td th:text="${student.id}"></td>
               <td th:text="${student.name}"></td>
+              <td th:text="${student.dep}"></td>
             </tr>
           </table>
         </div>
@@ -37,5 +40,6 @@
     </div>
   </div>
 </body>
+
 
 </html>
